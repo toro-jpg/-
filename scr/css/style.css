@@ -99,16 +99,26 @@ nav {
   color: #333; /* ტექსტის ფერი */
 }
 .custom-input {
-  /*xwidth: 331px;
+  width: 331px;
   height: 48px;
 
   top: 203px;
   left: 172px;
-  /*border-radius: 10px 0 0 0; /* მხოლოდ ზედა მარცხენა კუთხეში */
+  border-radius: 10px;
   border: 1px solid #ccc; /* საზღვრის ფერი */
 
   padding: 10px; /* შიდა სივრცე */
   font-family: "Poppins", sans-serif; /* ფონტი */
   font-size: 16px; /* ფონტის ზომა */
   line-height: 24px; /* ხაზის სიმაღლე */
+}
+.custom-box {
+  width: 331px;
+  height: 48px;
+  position: absolute; /* აუცილებელია იმისათვის, რომ top და left ფუნქციონირებდეს */
+  top: 203px;
+  left: 172px;
+  gap: 0; /* შეიძლება საჭირო არ იყოს, თუ ეს ერთეული ელემენტია */
+  border-radius: 10px 0 0 0; /* მრგვალებს მხოლოდ ზედა მარცხენა კუთხეს */
+  border: 1px solid transparent; /* ზედა საზღვრის სიგანე */
 }
