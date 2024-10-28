@@ -74,7 +74,7 @@ nav {
   position: absolute; /* ადგილმდებარეობისთვის */
   top: 131px;
   left: 140px;
-  border-radius: 24px 0 0 0; /* მხოლოდ ზედა მარცხენა კუთხე */
+  border-radius: 24px; /* მხოლოდ ზედა მარცხენა კუთხე */
 
   background-color: #cd1d1d; /* ფონდის ფერი, საჭიროების შემთხვევაში შეცვალე */
 }
@@ -96,7 +96,7 @@ nav {
   font-family: "Poppins", sans-serif; /* ფონტი */
   font-size: 16px; /* ფონტის ზომა */
   line-height: 24px; /* ხაზის სიმაღლე */
-  color: #333; /* ტექსტის ფერი */
+  color: #0e16b3; /* ტექსტის ფერი */
 }
 .custom-input {
   width: 331px;
@@ -112,13 +112,36 @@ nav {
   font-size: 16px; /* ფონტის ზომა */
   line-height: 24px; /* ხაზის სიმაღლე */
 }
+
 .custom-box {
-  width: 331px;
-  height: 48px;
-  position: absolute; /* აუცილებელია იმისათვის, რომ top და left ფუნქციონირებდეს */
-  top: 203px;
-  left: 172px;
-  gap: 0; /* შეიძლება საჭირო არ იყოს, თუ ეს ერთეული ელემენტია */
+  width: 331px; /* ელემენტის სიგანე */
+  height: 48px; /* ელემენტის სიმაღლე */
+  position: absolute; /* საჭიროა, რათა top და left ეფექტურად იმუშაოს */
+  top: 203px; /* მარცხნიდან ზემოთ */
+  left: 172px; /* მარცხნიდან მარჯვნივ */
+  gap: 0; /* ცარიელი სივრცე ელემენტებს შორის, შესაძლოა საჭირო არ იყოს */
   border-radius: 10px 0 0 0; /* მრგვალებს მხოლოდ ზედა მარცხენა კუთხეს */
   border: 1px solid transparent; /* ზედა საზღვრის სიგანე */
+}
+.text-sample {
+  font-family: "Poppins", sans-serif; /* შრიფტი */
+  font-size: 14px; /* შრიფტის ზომა */
+  font-weight: 400; /* შრიფტის წონა */
+  line-height: 21px; /* ხაზის სიმაღლე */
+  text-align: left; /* ტექსტის გასწორება */
+  padding-left: 35px;
+}
+.small-box {
+  width: 16px; /* ელემენტის სიგანე */
+  height: 16px; /* ელემენტის სიმაღლე */
+  padding-left: ;
+  top: 323px; /* ზემოდან 323 პიქსელი */
+  left: 172px; /* მარცხნიდან 172 პიქსელი */
+  gap: 0; /* სივრცე, შესაძლოა საჭირო არ იყოს */
+  border-radius: 3px; /* მრგვალებს მხოლოდ ზედა მარცხენა კუთხეს */
+  border: 1.4px solid #29b24e; /* საზღვარი, 1.4 პიქსელი სქელი და მწვანე ფერის */
+  /*opacity: 0.9; /* 0.9 - თითქმის გამჭვირვალე */
+}
+.list {
+  display: inline-block;
 }
