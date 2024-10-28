@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  max-width: 1000px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+.custom-icon {
+  width: 48px;
+  height: 48px;
+  position: absolute; /* ადგილმდებარეობისთვის */
+  top: 42px;
+  left: 140px;
+}
+.custom-input {
+  width: 370px;
+  height: 22px;
+  position: absolute; /* ადგილმდებარეობისთვის */
+  top: 54px;
+  left: 775px;
+  display: inline-block;
+  border: 1px solid #ccc; /* საზღვრის დამატება, საჭიროების შემთხვევაში შეცვალე */
+  border-radius: 4px; /* კუთხეების გამსუბუქება, საჭიროების შემთხვევაში შეცვალე */
+  padding: 4px; /* შიდა სივრცე */
+}
+.custom-line {
+  width: 42px;
+  height: 2px;
+
+  top: 84px;
+  left: 777px;
+  background-color: #29b24e; /* ხაზის ფერი, საჭიროების შემთხვევაში შეცვალე */
+}
+.continer {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav,
+nav li {
+  display: inline-block;
+}
+
+nav {
+  width: 75%;
+  text-align: center;
+  padding: 50px;
+}
+.custom-button {
+  max-width: 156px; /* უნდა იყოს მხოლოდ 156px */
+  height: 47px; /* უნდა იყოს მხოლოდ 47px */
+
+  top: 42px;
+  left: 1626px;
+
+  gap: 10px; /* ეს მახასიათებელი შეიძლება არ იყოს საჭირო ღილაკისთვის */
+  border-radius: 12px; /* მხოლოდ ზედა მარცხენა კუთხეში */
+
+  background-color: #29b24e; /* ღილაკის ფერი, საჭიროების შემთხვევაში შეცვალე */
+  color: #fff; /* ტექსტის ფერი */
+  text-align: center; /* ტექსტის ცენტრში მოქცევა */
+}
+.custom-block {
+  width: 395px;
+  height: 751px;
+  position: absolute; /* ადგილმდებარეობისთვის */
+  top: 131px;
+  left: 140px;
+  border-radius: 24px 0 0 0; /* მხოლოდ ზედა მარცხენა კუთხე */
+
+  background-color: #cd1d1d; /* ფონდის ფერი, საჭიროების შემთხვევაში შეცვალე */
+}
+.custom-text {
+  font-family: "Poppins", sans-serif; /* ფონტი */
+  font-size: 16px; /* ფონტის ზომა */
+  font-weight: 500; /* ფონტის წონა */
+  line-height: 24px; /* ხაზის სიმაღლე */
+  color: #333; /* ტექსტის ფერი */
+  padding: 16px; /* შიდა სივრცე, საჭიროების შემთხვევაში შეცვალე */
+}
+.custom-label {
+  width: 69px;
+  height: 24px;
+  position: absolute; /* ადგილმდებარეობისთვის */
+  top: 163px;
+  left: 172px;
+
+  font-family: "Poppins", sans-serif; /* ფონტი */
+  font-size: 16px; /* ფონტის ზომა */
+  line-height: 24px; /* ხაზის სიმაღლე */
+  color: #333; /* ტექსტის ფერი */
+}
+.custom-input {
+  /*xwidth: 331px;
+  height: 48px;
+
+  top: 203px;
+  left: 172px;
+  /*border-radius: 10px 0 0 0; /* მხოლოდ ზედა მარცხენა კუთხეში */
+  border: 1px solid #ccc; /* საზღვრის ფერი */
+
+  padding: 10px; /* შიდა სივრცე */
+  font-family: "Poppins", sans-serif; /* ფონტი */
+  font-size: 16px; /* ფონტის ზომა */
+  line-height: 24px; /* ხაზის სიმაღლე */
+}
