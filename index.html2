@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lesson 6</title>
+    <link rel="stylesheet" type="text/css" href="scr/css/style.css" />
+  </head>
+  <header>
+    <div class="custom-icon">
+      <!-- აქ შეგიძლიათ დაამატოთ სურათი ან აიკონი, მაგალითად: -->
+      <img
+        src="scr/images/8c5a10c25cd7a6d14d87414108442484.png"
+        alt="Icon"
+        style="width: 100%; height: 100%"
+      />
+    </div>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="titels">Home</a>
+            <div class="custom-line"></div>
+          </li>
+
+          <li>
+            <a href="#" class="titels">Discover</a>
+          </li>
+          <li>
+            <a href="#" class="titels">Contact us</a>
+          </li>
+          <li>
+            <a href="#" class="titels">Sign in</a>
+          </li>
+          <li></li>
+        </ul>
+      </nav>
+      <button class="custom-button">Sell Something</button>
+    </div>
+  </header>
+  <section class="sec1">
+    <div class="custom-block">
+      <p class="custom-text">Location</p>
+      <input type="text" class="custom-input" placeholder="All Kenya" />
+      <span class="custom-label">ტექსტი</span>
+      <div class="list">
+        <div class="small-box"></div>
+        <p class="text-sample">ეს არის მაგალითი ტექსტისთვის.</p>
+
+        <div class="small-box"></div>
+        <p class="text-sample">ეს არის მაგალითი ტექსტისთვის.</p>
+        <div class="small-box"></div>
+        <p class="text-sample">ეს არის მაგალითი ტექსტისთვის.</p>
+        <div class="small-box"></div>
+        <p class="text-sample">ეს არის მაგალითი ტექსტისთვის.</p>
+        <div class="small-box"></div>
+
+        <div class="large-box"></div>
+      </div>
+
+      <p class="text-sample">ეს არის მაგალითი ტექსტისთვის.</p>
+    </div>
+    <img
+      src="scr/images/2d00d82a61321f4b4a29438517abbb42.jpeg"
+      alt="img"
+      class="img"
+    />
+  </section>
+  <section></section>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+ <div class="custom-icon">
+      <!-- აქ შეგიძლიათ დაამატოთ სურათი ან აიკონი, მაგალითად: -->
+      <img
+        src="scr/images/8c5a10c25cd7a6d14d87414108442484.png"
+        alt="Icon"
+        style="width: 100%; height: 100%"
+      />
+    </div>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="titels">Home</a>
+            <div class="custom-line"></div>
+          </li>
+
+          <li>
+            <a href="#" class="titels">Discover</a>
+          </li>
+          <li>
+            <a href="#" class="titels">Contact us</a>
+          </li>
+          <li>
+            <a href="#" class="titels">Sign in</a>
+          </li>
+          <li></li>
+        </ul>
+      </nav>
+      <button class="custom-button">Sell Something</button>
+    </div>
+  </header>
+  <div class="flex flex-col md:flex-row bg-background p-6">
+    <div class="w-full md:w-1/3 bg-white rounded-lg shadow-md p-4">
+      <h2 class="text-lg font-bold mb-4">Location</h2>
+      <select class="w-full p-2 border border-border rounded">
+        <option>All Kenya</option>
+      </select>
+
+      <h2 class="text-lg font-bold mt-6 mb-4">Property</h2>
+      <div class="space-y-2">
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Houses & Apartments for Rent</span> (9548 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Houses & Apartments for Sale</span> (9548 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Land & Plots for Rent</span> (9548 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Land & Plots for Sale</span> (9548 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Commercial Property for Rent</span> (9548 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Commercial Property for Sale</span> (9548 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Event Centres, Venues & Workstations</span> (9548 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Short Let Property</span> (9548 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Commercial Property for Rent</span> (9548 ads)
+        </label>
+      </div>
+
+      <h2 class="text-lg font-bold mt-6 mb-4">Price range</h2>
+      <div class="space-y-2">
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>Under 13k</span> (218 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>13k - 18k</span> (218 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>18k - 160k</span> (218 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>160k - 1M</span> (218 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>1M - 5M</span> (218 ads)
+        </label>
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2" />
+          <span>5M - 55M</span> (218 ads)
+        </label>
+      </div>
+    </div>
+
+    <div class="w-full md:w-2/3 flex flex-col justify-center items-center p-6">
+      <h1 class="text-4xl font-bold text-center mb-4">
+        Find the house you want easily
+      </h1>
+      <p class="text-lg text-muted-foreground text-center mb-6">
+        Buy, sell, rent or lease on just one platform
+      </p>
+      <input
+        type="text"
+        placeholder="Search..."
+        class="w-full md:w-2/3 p-3 border border-border rounded-lg mb-4"
+      />
+      <img
+        aria-hidden="true"
+        alt="city skyline"
+        src="https://placehold.co/600x400"
+      />
+    </div>
+  </div>
